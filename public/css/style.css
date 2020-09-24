@@ -1,0 +1,383 @@
+body h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+/* .navbar-default {
+	background-color: #A2B5CD;
+	color: white;
+}
+
+.navbar-default :active {
+	background-color: #CDCDC1;
+	color: black;
+} */
+
+#myMap {
+    transform: scale(0.8);
+    width: 1300px;
+    height:1000px;
+    /*position: absolute;*/
+    /*top:50px;*/
+    /*left:10px;*/
+    /*border: 5px solid red;*/
+    text-align: center;
+    margin-top: 100px;
+    /*top:200px;*/
+    /*margin-bottom: 100px;*/
+    /*margin-bottom: 100px;*/
+    background: url("../images/map9.png") no-repeat center center;
+    background-size: cover;
+
+
+    /*  show grid   */
+    /*background:*/
+    /*        -webkit-linear-gradient(top,transparent 9px,red 10px),*/
+    /*        -webkit-linear-gradient(left,transparent 9px,red 10px);*/
+    /*background-size: 10px 10px;*/
+}
+
+#myMap mychart {
+    width: 110%;
+    height:105%;
+    /*display: inline-block;*/
+}
+
+#myMap img {
+    margin-top:150px;
+    vertical-align: middle;
+    z-index: 1000;
+    /*position: fixed;*/
+
+}
+
+#myChart {
+    /*position: absolute;*/
+    /*top:50px;*/
+    /*margin-bottom: 100px;*/
+}
+
+#sizeButton {
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    bottom: 50px;
+    right:40px;
+}
+
+#sizeButton ul li {
+    /*border: 1px solid black;*/
+    text-align: center;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+#sizeButton button {
+    width:30px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*    搜索框样式    */
+#search form {
+    height:200px;
+    text-align: center;
+    /*border: 2px solid red;*/
+    margin-bottom: 20px;
+    width:50%;
+    position: absolute;
+    left:20%
+}
+
+#selectBox {
+    background-color: #f7ecb5;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    /*float: left;*/
+    z-index: 5;
+    font-size: 16px;
+    /*-moz-appearance:none;*/
+    /*-webkit-appearance:none;*/
+}
+
+#selectBox option {
+    font-size: 10px;
+    font-family: Calibri;
+    padding: 0px;
+    color: white;
+}
+
+.optionIntro {
+
+}
+
+.selectpicker show-tick{
+    display: inline-block;
+    /*float: right;*/
+    width: 250px;
+    height: 40px;
+    background:none;
+    background-color: #f7ecb5;
+    border:1px solid black;
+    border-radius: 20px;
+    /*top:-2px;*/
+    /*margin-left:-80px;*/
+    font-size: 16px;
+    font-weight: bold;;
+    z-index: 10;
+    font-family:"sans-serif";
+    color:#324b4e;
+}
+
+.submitBtn {
+    display: inline-block;
+    /*float: right;*/
+    width: 100px;
+    height: 40px;
+    background:none;
+    background-color: #f7ecb5;
+    border:1px solid black;
+    border-radius: 20px;
+    /*top:-2px;*/
+    /*margin-left:-80px;*/
+    font-size: 16px;
+    font-weight: bold;;
+    z-index: 10;
+    font-family:"sans-serif";
+    color:#324b4e;
+}
+
+/*#search button:before {*/
+/*    !*content:"Search";*!*/
+/*    font-family:"sans-serif";*/
+/*    color:#324b4e;*/
+/*}*/
+/*#search button:active {*/
+/*    border: none;*/
+/*}*/
+
+/* body{
+    overflow: hidden;
+    background-color: black;
+    margin: 5px;
+} */
+
+@font-face {
+    font-family: "Game of Thrones";
+    src: url("Game of Thrones.ttf");
+}
+.title{
+	position: absolute;
+	top: 60px;
+	left:150px;
+	font-weight: bold;
+	font-size: 100px;
+	
+}
+
+.GOT{
+	/* width: 200px; */
+	/* height: 100px; */
+	/* background: black; */
+	position: absolute;
+	top: 130px;
+	left:150px;
+	font-weight: bold;
+	font-size: 50px;
+    font-family: "Game of Thrones";
+	color:white;
+	/* text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black; */
+}
+GOT.cover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to bottom,black 0%,transparent 50%,black);
+	opacity: 0.4;
+}
+
+#search input {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: none;
+    width: 200px;
+    height: 30px;
+    background-color: #666;
+}
+
+.div1 {
+	width: 300px;
+	height: 150px;
+	border: 1px solid blue;
+	color:#cc6600;
+} 
+/* legend container */
+#container { 
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	/* color: #fff; */
+	border: none;
+	/* border-radius: 8px; */
+	outline: none;
+	box-shadow: none;
+	width: 50px;
+	height: 500px;
+	/* background-color: #666; */
+}
+.divhead{
+	position: absolute;
+	top:80px;
+	right:20px;
+	color: whitesmoke;
+	width: 250px;
+	height: 70px;
+	margin-left:1100px;
+	text-align: center;
+	line-height: 80px;
+	font-size: xx-large;
+	border-radius: 8px 8px 0px 0px;
+	background-color:#333333;
+	border: 2px solid #222222;
+	font-family: 'Luckiest Guy', cursive;
+	opacity: 0;
+}
+.divfont1{
+	position: absolute;
+	top:150px;
+	right:20px;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color:#5cb85c;
+	border: 2px solid #333333;
+	font-size: larger;
+	font-family: 'Love Ya Like A Sister', cursive;
+	opacity: 0;
+}
+.divcontent1 {/*info*/
+	position: absolute;
+	top:190px;
+	right: 20px;
+
+	overflow:scroll;
+	background-color:#333333;
+	width: 250px;
+	height: 180px;
+	font-size: 13px;
+	border: 2px solid #333333;
+	color:whitesmoke;
+	border-radius: 0px 0px 8px 8px;
+	opacity: 0; 
+}
+.divfont2{/*rela_title*/
+	position: absolute;
+	top:370px;
+	right:20px;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color:#5cb85c;
+	border: 2px solid #333333;
+	font-size: larger;
+	font-family: 'Love Ya Like A Sister', cursive;
+	opacity: 0; 
+}
+.divcontent2 {/*rela*/
+	position: absolute;
+	top:410px;
+	right: 20px;
+
+	overflow:scroll;
+	background-color:#333333;
+	width: 250px;
+	height: 100px;
+	font-size: 13px;
+	border: 2px solid #333333;
+	color:whitesmoke;
+	border-radius: 0px 0px 8px 8px;
+	opacity: 0; 
+}
+.divfont3{/*book_title*/
+	position: absolute;
+	top:510px;
+	right:20px;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color:#5cb85c;
+	border: 2px solid #333333;
+	font-size: larger;
+	font-family: 'Love Ya Like A Sister', cursive;
+	opacity: 0; 
+}
+.divcontent3 { /*book*/
+	position: absolute;
+	top:550px;
+	right: 20px;
+
+	background-color:#333333;
+	width: 250px;
+	height: 100px;
+	font-size:13px;
+	overflow:scroll;
+	color:whitesmoke;
+	border: 2px solid #333333;
+	border-radius: 0px 0px 8px 8px;
+	opacity: 0; 
+}
+.divfont4{/*tv title*/
+	position: absolute;
+	top:650px;
+	right:20px;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color:#5cb85c;
+	border: 2px solid #333333;
+	font-size: larger;
+	font-family: 'Love Ya Like A Sister', cursive;
+	opacity: 0; 
+}
+.divtail{/*tv*/
+	position: absolute;
+	top:690px;
+	right: 20px;
+
+	overflow:scroll;
+	background-color:#333333;
+	width: 250px;
+	height: 65px;
+	font-size: 13px;
+	border: 2px solid #333333;
+	border-radius: 0px 0px 8px 8px;
+	/* font-size: 1px; */
+	color:whitesmoke;
+	opacity: 0; 
+}
+
+.try{
+	position: absolute;
+	top:700px;
+	right: 20px;
+	font-weight: bold;
+	background-color:burlywood;
+	color:black;
+}
